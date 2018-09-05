@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>3 Color Gradient</title>
+  <link rel="stylesheet" href="stylesheets/main.css">
+</head>
+<body id="gradient">
+  <h1 id="unhide">Tri-Gradient Generator</h1>
+  <div id="toHide">
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <p>
+      <h2><span id="deg">0</span>*</h2>
+      <input type="range" name="degree" min"0" max="359" value="30" step="1" class="degree">
+    </p>
+    <input type="color" name="color1" class="color1" value="#00ff00">
+    <input type="color" name="color2" class="color2" value="#0ffff0">
+    <input type="color" name="color3" class="color3" value="#f0ff0f">
+    <h2>Current CSS Background</h2>
+    <code>
+      <h3></h3>
+    </code>
+    <button id="random" class="button"><span>Random Background</span></button>
+    <button id="hideText">Hide Text</button>
+  </div>
+
+  <script src="scripts/app.js" charset="utf-8"></script>
+</body>
+</html>
